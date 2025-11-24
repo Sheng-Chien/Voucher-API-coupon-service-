@@ -1,0 +1,15 @@
+coupon-service/
+├── app/
+│   ├── __init__.py
+│   ├── extensions.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── views/
+│       ├── __init__.py
+│       └── coupons.py
+├── config.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── sql_init.sql   # 如果不用 Docker，可放建表 SQL & 測試資料
+
